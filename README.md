@@ -1,4 +1,4 @@
-# Spherus.ServiceResponse
+# Spherus.Notifications
 
 This repository contains a Notifications Provider using .NET Standard.
 

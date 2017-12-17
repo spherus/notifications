@@ -1,6 +1,6 @@
 ﻿namespace Spherus.Notifications.Interfaces
 {
-    public interface INotificationService
+    public interface INotificationResult
     {
 
     }

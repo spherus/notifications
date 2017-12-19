@@ -1,6 +1,6 @@
-﻿namespace Spherus.Notifications.Email
+﻿namespace Spherus.Notifications.Mail
 {
-    public class EmailAttachment
+    public class Attachment
     {
         public string Type { get; set; }
 

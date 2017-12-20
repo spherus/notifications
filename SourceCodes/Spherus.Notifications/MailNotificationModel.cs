@@ -18,6 +18,8 @@ namespace Spherus.Notifications
 
         public IList<Address> To { get; set; }
 
+        public Address ReplyTo { get; set; }
+
         public string Subject { get; set; }
 
         public string Text { get; set; }

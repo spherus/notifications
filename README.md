@@ -1,6 +1,6 @@
 # Spherus.Notifications
 
-This repository contains a Notifications Provider using .NET Standard 2.0
+This repository contains a Generic Notifications Provider using .NET Standard 2.0
 
 ## NuGet
 

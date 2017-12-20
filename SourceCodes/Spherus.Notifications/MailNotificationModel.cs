@@ -18,5 +18,7 @@ namespace Spherus.Notifications
         public IList<Attachment> Attachments { get; set; }
 
         public IList<Attachment> Images { get; set; }
+
+        public IDictionary<string, object> Credentials { get; set; }
     }
 }

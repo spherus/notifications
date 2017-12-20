@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <Version>1.0</Version>
+    <Version>1.0.1</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Company>Spherus INC</Company>
     <Authors>Rostislav Rotaru</Authors>
@@ -14,6 +14,7 @@
     <PackageLicenseUrl>https://github.com/spherus/notifications/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/spherus/notifications</PackageProjectUrl>
     <PackageTags>spherus notifications mail sms net standard 2.0</PackageTags>
+    <PackageReleaseNotes>Base package for Notifications. Use it only for creating your own notifications systems based on this package.</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>

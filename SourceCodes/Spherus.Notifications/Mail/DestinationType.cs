@@ -4,7 +4,6 @@
     {
         To = 0,
         CC = 1,
-        BCC = 2,
-        ReplyTo = 3
+        BCC = 2
     }
 }

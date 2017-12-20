@@ -1,14 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Spherus.Notifications.Mail
+﻿namespace Spherus.Notifications.Mail
 {
     public enum DestinationType
     {
-        To,
-        CC,
-        BCC,
-        ReplyTo
+        To = 0,
+        CC = 1,
+        BCC = 2,
+        ReplyTo = 3
     }
 }

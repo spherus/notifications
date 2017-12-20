@@ -5,11 +5,18 @@ namespace Spherus.Notifications
 {
     public class MailNotificationModel
     {
+
+        public MailNotificationModel()
+        {
+            To = new List<Address>();
+            Attachments = new List<Attachment>();
+            Images = new List<Attachment>();
+            Credentials = new Dictionary<string, object>();
+        }
+
         public Address From { get; set; }
 
         public IList<Address> To { get; set; }
-
-        public Address ReplyTo { get; set; }
 
         public string Subject { get; set; }
 
